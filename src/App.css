@@ -1,0 +1,82 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: #1c2127;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.predictions-container {
+position: absolute;
+left: 10vh;
+right: 0px;
+top: 30vh;
+max-width: 40vh;
+width: 34%;
+text-align: center;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: auto 0;
+}
+
+.prediction-box {
+  padding: 10px;
+}
+
+.prediction-box:first-of-type {
+  background-color: white;
+  color: #1c2127;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.detector {
+  min-width: 200px;
+  height: 700px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.target-img {
+  height: 100%;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.select-btn {
+  padding: 7px 10px;
+  border: 2px solid transparent;
+  background-color: #fff;
+  color: #0a0f22;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  margin-top: 2em;
+  cursor: pointer;
+  transition: all 260ms ease-in-out;
+
+}
+
+.select-btn:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
